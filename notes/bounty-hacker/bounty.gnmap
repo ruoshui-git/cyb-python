@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Mon Dec 14 14:27:11 2020 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -oA bounty -T4 10.10.174.126
+Host: 10.10.174.126 ()	Status: Up
+Host: 10.10.174.126 ()	Ports: 21/open/tcp//ftp///, 22/open/tcp//ssh///, 80/open/tcp//http///
+# Nmap done at Mon Dec 14 14:28:13 2020 -- 1 IP address (1 host up) scanned in 62.13 seconds

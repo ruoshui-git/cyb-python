@@ -1,0 +1,15 @@
+# Nmap 7.80 scan initiated Mon Dec 14 14:27:11 2020 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -oA bounty -T4 10.10.174.126
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 10.10.174.126
+Host is up (0.14s latency).
+Not shown: 967 filtered ports, 30 closed ports
+PORT   STATE SERVICE
+21/tcp open  ftp
+22/tcp open  ssh
+80/tcp open  http
+
+# Nmap done at Mon Dec 14 14:28:13 2020 -- 1 IP address (1 host up) scanned in 62.13 seconds
