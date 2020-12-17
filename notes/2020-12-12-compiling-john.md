@@ -16,17 +16,12 @@ First, clone john
 
 $ `git clone -depth 1 https://github.com/openwall/john.git`
 
-Install clang b/c I don't have it. GCC should be fine too.
-
-$ `sudo apt-get install clang`
-
-I don't have OpenSSL header. This is needed. Install.
-
-$ `sudo apt install libssl-dev`
-
+## Configuring
 In `john/src`:
 
 $ `./configure`
+
+If you get an error here, look below.
 
 Last few lines of output:
 ```
@@ -56,7 +51,31 @@ Install missing libraries to get any needed features that were omitted.
 
 Configure finished.  Now "make -s clean && make -sj4" to compile.
 ```
-Now install:
+
+## Some errors
+
+### No C compiler
+
+Most people should ignore this step, since they have a c compiler installed already. I don't have one.
+
+$ `sudo apt-get install clang`
+
+### Missing OpenSSL header
+
+I don't have OpenSSL header. This is needed. Install.
+
+For Debian: 
+$ `sudo apt install libssl-dev`
+
+For Mac:
+$ `brew upgrade openssl`
+
+
+# Install
+
+***Make sure you have `./configure`'d successfully before you do this***
+
+Now install. This will take a while.
 
 ```
 ┌──(known㉿DESKTOP-DTPC4J5)-[~/cyber/john/src]
@@ -65,7 +84,7 @@ DES_bs.c:501:25: warning: variable 't' is uninitialized when used here [-Wuninit
                 b = (DES_bs_vector *)&DES_bs_all.B[0] DEPTH;
                                       ^~~~~~~~~~
 
-... Lots of warnings by clang ...
+... Lots of warnings from clang ...
 
 ar: creating aes.a
 ar: creating secp256k1.a
