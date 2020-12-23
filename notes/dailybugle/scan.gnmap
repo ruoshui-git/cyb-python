@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Fri Dec 18 14:43:29 2020 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" --top-ports 1000 -sV -oA scan -T4 10.10.38.148
+Host: 10.10.38.148 ()	Status: Up
+Host: 10.10.38.148 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.4 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.6 ((CentOS) PHP|5.6.40)/, 3306/open/tcp//mysql//MariaDB (unauthorized)/	Ignored State: closed (997)
+# Nmap done at Fri Dec 18 14:43:51 2020 -- 1 IP address (1 host up) scanned in 22.36 seconds

